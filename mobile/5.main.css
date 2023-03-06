@@ -1,0 +1,14 @@
+#section_header {
+  padding: 20px;
+}
+
+#section_article{
+  padding: 20px;
+}
+
+/* 푸터 */
+#main_footer {
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+}

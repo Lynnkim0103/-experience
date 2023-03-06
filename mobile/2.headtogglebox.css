@@ -1,0 +1,32 @@
+#main_header {
+  height: 45px;
+  background: url('./img/header_background.png');
+
+  text-align: center;
+  line-height: 45px;
+  position: relative;
+}
+
+#main_header > h1 {
+  color: #fff;
+}
+
+#main_header > a, #main_header > label {
+  position: absolute;
+  display: block;
+  height: 32px;
+}
+
+#main_header > a.left {
+  left: 5px; top: 7px;
+  width: 62px; height: 32px;
+  background: url('./img/css_sprites.png')
+  -0,-0;
+}
+
+#main_header > label.right {
+  right: 5px; top: 7px;
+  width: 32px; height: 32px;
+  background: url('./img/css_sprites.png')
+  -62px, -0;
+}

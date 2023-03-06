@@ -1,0 +1,35 @@
+#toggle {
+  display: none;
+}
+
+#toggle + #wrap > #toggle_gnb_wrap {
+  display: none;
+}
+
+#toggle:checked + #wrap > #toggle_gnb_wrap {
+  display: block;
+}
+
+#toggle_gnb_wrap {
+  background-color: beige;
+  padding: 15px;
+}
+
+#toggle_gnb > ul > #toggle_top {
+  text-align: center;
+}
+
+#toggle_gnb > ul > #toggle_top > li {
+  display: inline-block;
+  width: 70px;
+}
+
+
+#toggle_gnb > ul > #toggle_bottom {
+  text-align: center;
+}
+
+#toggle_gnb > ul > #toggle_bottom > li {
+  display: inline-block;
+  width: 70px;
+}

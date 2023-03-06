@@ -1,0 +1,41 @@
+#top_gnb {
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #b42111;
+}
+
+#top_gnb > div > a {
+  float: left;
+  width: 25%; height: 35px;
+  
+  text-align: center;
+  line-height: 35px;
+  color: white;
+}
+
+#bottom_gnb {
+  width: 100%;
+  border: 1px solid black;
+  display: table;
+}
+
+#bottom_gnb > div {
+  display: table-cell;
+  position: relative;
+}
+
+#bottom_gnb > div > a {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+#bottom_gnb > div > a::before {
+  content: "";
+  width: 1px; height: 15px;
+  border-left: 1px solid black;
+  display: block;
+  position: absolute;
+  top: 9px; left: -3px;
+}
